@@ -146,7 +146,7 @@ function Home(props) {
             </button>
           </a>
         </div>
-        <img className="w-60 lg:w-4/12 shake" src={dollar} alt="dollar" />
+        <img className="w-60 lg:w-4/12" src={dollar} alt="dollar" />
       </div>
       <div className="w-full px-4 bg-m-blue bg-opacity-10 py-12 md:py-20 flex-col flex  ">
         <div className="w-full flex justify-center items-center">
