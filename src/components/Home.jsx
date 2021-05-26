@@ -20,8 +20,8 @@ function Home(props) {
     <div className="w-full flex flex-col mt-8   overflow-x-hidden">
       <div className="px-3 pt-3 lg:px-32 lg:justify-center overflow-y-hidden  overflow-x-hidden flex flex-col flex-wrap md:px-10">
         <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly md:pt-32">
-          <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap ">
-            <p className="lg:pt-0  xl:tracking-widest xl:font-bold xl: lg:pr-0 xl:py-4 lg:pb-0 pt-20 pr-8 pb-5  font-semibold text-m-ash text-4xl md:text-4xl xl:text-6xl  ">
+          <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap pt-20">
+            <p className="lg:pt-0  xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5 leading-snug  font-bold text-opacity-70 text-black text-5xl md:text-5xl xl:text-6xl  ">
               Redefining the
               <br />
               essence of money

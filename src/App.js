@@ -45,7 +45,7 @@ function App() {
           </a>
         </div>
       ) : null}
-      <div className=" z-30 w-full  lg:py-6 lg:px-24 px-5 py-4 shadow-md flex flex-wrap fixed top-0 justify-between items-center bg-white ">
+      <div className=" z-30 w-full  lg:py-6 lg:px-24 px-5 md:px-8 py-4 shadow-md flex flex-wrap fixed top-0 justify-between items-center bg-white ">
         <img className="h-10 object-contain lg:h-12" src={logo} alt="logo" />
         <div className="hidden md:flex md:justify-evenly md:align-middle">
           <a
