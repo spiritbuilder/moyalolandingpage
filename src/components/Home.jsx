@@ -104,22 +104,14 @@ function Home(props) {
             <span className="bg-opacity-50 z-10 text-center left-0 md:left-16 lg:left-10 md:text-base md:py-1.5  absolute top-24 md:top-52 bg-m-ash text-sm text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
               Instant and Secure <br /> Transfer
             </span>
-            <img
-              className="object-cover wave"
-              src={sendmoney}
-              alt="sendmoney"
-            />
+            <img className="object-cover" src={sendmoney} alt="sendmoney" />
           </div>
         </div>
       </div>
       <div className="px-5 py-24 md:px-20 -mt-14 md:-mt-24 xl:-mt-24 bg-m-tiny-blue clipped flex lg:justify-center xl:justify-around lg:items-center flex-row flex-wrap-reverse">
-        <img
-          className="lg:w-7/12 zoom  object-contain"
-          src={laptop}
-          alt="laptop"
-        />
+        <img className="lg:w-7/12  object-contain" src={laptop} alt="laptop" />
         <div className="lg:w-5/12   flex flex-col">
-          <p className="text-2xl lg:text-5xl md:text-3xl xl:text-7xl font-semibold lg:text-right ">
+          <p className="text-2xl lg:text-5xl lg:bold md:text-3xl xl:text-7xl font-semibold lg:text-right ">
             A Modern
             <br /> Path to <span className="text-m-blue">Save</span>
           </p>
@@ -148,22 +140,18 @@ function Home(props) {
             Facebook, Netflix,Google, Digital Ocean, Instagram Ads, Apple Music,
             Spotify e.t.c
           </p>
-          <a href='http://app.moyalo.ng'>
-          <button
-            
-            className="w-auto self-start xl:text-xl  lg:py-5 lg:px-10 xl:px-14 lg:text-xl lg:self-end text-white my-5 bg-m-orange py-3 xl:rounded-3xl rounded-xl px-8"
-          >
-            Create a Dollar Card
-          </button>
+          <a href="http://app.moyalo.ng">
+            <button className="w-auto self-start xl:text-xl  lg:py-5 lg:px-10 xl:px-14 lg:text-xl lg:self-end text-white my-5 bg-m-orange py-3 xl:rounded-3xl rounded-xl px-8">
+              Create a Dollar Card
+            </button>
           </a>
-          
         </div>
         <img className="w-60 lg:w-4/12 shake" src={dollar} alt="dollar" />
       </div>
       <div className="w-full px-4 bg-m-blue bg-opacity-10 py-12 md:py-20 flex-col flex  ">
         <div className="w-full flex justify-center items-center">
           <img
-            className="relative animate-bounce  -top-20 md:-top-28 "
+            className="relative   -top-20 md:-top-28 "
             src={security}
             alt="secure"
           />
@@ -261,7 +249,6 @@ function Home(props) {
           Moyalo!
         </span>
       </div>
-      
     </div>
   );
 }
