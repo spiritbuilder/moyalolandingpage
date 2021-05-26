@@ -261,7 +261,6 @@ function Home(props) {
           Moyalo!
         </span>
       </div>
-      <Footer />
       
     </div>
   );

@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 import menu from "./assets/menuDark.svg";
 import cancel from "./assets/closeIcon.svg";
 
@@ -78,6 +79,7 @@ function App() {
           <Route path="/faq" component />
         </Switch>
       </Router>
+<Footer />
     </div>
   );
 }
