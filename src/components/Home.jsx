@@ -21,7 +21,7 @@ function Home(props) {
       <div className="px-3 pt-3 lg:px-32 lg:justify-center overflow-y-hidden  overflow-x-hidden flex flex-col flex-wrap md:px-10">
         <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly md:pt-32">
           <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap ">
-            <p className="lg:pt-0  xl:tracking-widest xl:font-semibold xl:leading-snug lg:pr-0 xl:py-4 lg:pb-0 pt-20 pr-8 pb-5  font-semibold text-m-ash text-4xl md:text-4xl xl:text-5xl  ">
+            <p className="lg:pt-0  xl:tracking-widest xl:font-bold xl: lg:pr-0 xl:py-4 lg:pb-0 pt-20 pr-8 pb-5  font-semibold text-m-ash text-4xl md:text-4xl xl:text-6xl  ">
               Redefining the
               <br />
               essence of money
@@ -32,7 +32,7 @@ function Home(props) {
             </p>
             <a
               href="https://app.moyalo.ng/register"
-              className="inline lg:w-auto  xl:mt-6  md:self-center mt-2 p-3 xl:mb-2 mb-8 md:text-3xl lg:text-xl lg:rounded-xl lg:tracking-wide text-xl xl:w-auto xl:py-6   lg:px-14 lg:py-4 tracking-normal rounded-lg md:w-8/12 md:p-6  bg-m-orange text-white"
+              className="inline lg:w-auto  xl:mt-6  md:self-center mt-2 p-3 xl:mb-2 mb-8 md:text-3xl lg:text-xl lg:rounded-xl lg:tracking-wide text-xl text-center w-auto xl:py-6   lg:px-14 lg:py-4 tracking-normal rounded-lg md:w-8/12 md:p-6  bg-m-orange text-white"
             >
               Create a Free Account
             </a>

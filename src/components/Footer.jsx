@@ -17,13 +17,15 @@ function Footer() {
             <p className="text-white text-opacity-70">
               Nigeria
               <br />
-              238, Afriland House, Egbeda - idimu, Road, Egbeda, Lagos. USA.
+              238, Afriland House, Egbeda - idimu, Road, Egbeda, Lagos. <br /><br />
+              USA.
               <br />
               8 Fremont St,
               <br />
               San Francisco, CA 94105
               <br /> <br />
-              E: hello@moyallo <br />
+              E: hello@moyalo.ng
+              <br />
               <span>support@moyalo.ng</span>
             </p>
           </div>
