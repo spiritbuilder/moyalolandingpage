@@ -157,56 +157,56 @@ function Home(props) {
           />
         </div>
         <div className="flex-wrap flex justify-evenly items-start">
-          <div className="px-2 w-64 py-2">
+          <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex  justify-start">
-              <div className="bg-m-orange px-2 flex justify-center items-center py-1 rounded-xl">
-                <img className="h-5" src={check} alt="mark" />
+              <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
+                <img className="h-3 md:h-5" src={check} alt="mark" />
               </div>
-              <p className="ml-4 text-m-black text-3xl  font-semibold tracking-wider lg:tracking-widest">
+              <p className="ml-1 md:ml-4 text-m-black text-sm md:text-2xl  font-semibold tracking-wide lg:tracking-widest">
                 Secure
               </p>
             </div>
-            <div className=" tracking-wide text-base self-center mt-4 text-m-ash break-normal text-center ">
+            <div className=" text-xs tracking-tight md:tracking-wide md:text-base self-center mt-4 text-m-ash break-normal text-jusify text-center ">
               We use bank-level encryption for all your personal information
             </div>
           </div>
-          <div className="px-2 w-64 py-2">
+          <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex  justify-start">
-              <div className="bg-m-orange px-2 flex justify-center items-center py-1 rounded-xl">
-                <img className="h-5" src={check} alt="mark" />
+              <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
+                <img className="h-3 md:h-5" src={check} alt="mark" />
               </div>
-              <p className="ml-4 text-m-black text-3xl  font-semibold tracking-wider lg:tracking-widest">
+              <p className=" ml-1 md:ml-4 text-m-black text-sm md:text-2xl  font-semibold tracking-wide lg:tracking-widest">
                 Regulated
               </p>
             </div>
-            <div className=" tracking-wide text-base self-center mt-4 text-m-ash break-normal text-center ">
+            <div className=" text-xs tracking-tight md:tracking-wide md:text-base self-center mt-4 text-m-ash break-normal text-jusify text-center ">
               Authorized and regulated by the Central Bank of Nigeria(CBN). All
               deposits are insured by the NDIC
             </div>
           </div>
-          <div className="px-2 w-64 py-2">
+          <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex justify-start ">
-              <div className="bg-m-orange px-2 flex justify-center items-center py-1 rounded-xl">
-                <img className="h-5" src={check} alt="mark" />
+              <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
+                <img className="h-3 md:h-5" src={check} alt="mark" />
               </div>
-              <p className="ml-4 text-m-black text-3xl  font-semibold tracking-wider lg:tracking-widest">
+              <p className="ml-1 md:ml-4 text-m-black text-sm md:text-2xl  font-semibold tracking-wide lg:tracking-widest">
                 Trusted
               </p>
             </div>
-            <div className=" tracking-wide text-base self-center mt-4 text-m-ash break-normal text-center ">
+            <div className=" text-xs tracking-tight md:tracking-wide md:text-base self-center mt-4 text-m-ash break-normal text-jusify text-center ">
               Our User reviews on Google speak volumes
             </div>
           </div>
-          <div className="px-2 w-64 py-2">
+          <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex justify-start">
-              <div className="bg-m-orange px-2 flex justify-center items-center py-1 rounded-xl">
-                <img className="h-5" src={check} alt="mark" />
+              <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
+                <img className="h-3 md:h-5" src={check} alt="mark" />
               </div>
-              <p className="ml-4 text-m-black text-3xl  font-semibold tracking-wider lg:tracking-widest">
+              <p className="ml-1 md:ml-4 text-m-black text-sm md:text-2xl  font-semibold tracking-wide lg:tracking-widest">
                 Guaranty
               </p>
             </div>
-            <div className=" tracking-wide text-base self-center mt-4 text-m-ash break-normal text-center ">
+            <div className=" text-xs tracking-tight md:tracking-wide md:text-base self-center mt-4 text-m-ash break-normal text-jusify text-center ">
               Moyalo gives you the assurance of safety on your personal wallet
             </div>
           </div>
