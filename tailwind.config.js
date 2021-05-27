@@ -11,12 +11,14 @@ module.exports = {
         "m-ash": "#737373",
         "m-red": "#ff9e9e",
       },
-      screen: {
-        "2xl": "1440px",
-        "3xl": "2600px",
+      screens: {
+        "1.5xl": "1440px",
+
+        "3xl": "2300px",
       },
       width: {
         1440: "1440px",
+        1536: "1536px",
       },
       lineHeight: {
         'extra-loose': '1.25',
@@ -25,6 +27,7 @@ module.exports = {
        fontSize: {
         "7.5xl": ['5rem', '1.2'],
         "4.5xl": ['2.5rem', '1.2'],
+        "4.7xl": ['2.85rem', '1.2'],
         "6.5xl": ['3.75rem', '1.2'],
       }
     },
