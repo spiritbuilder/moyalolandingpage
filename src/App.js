@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="w-full flex  flex-col overflow-x-hidden">
+    <div className="w-full flex   flex-col overflow-x-hidden">
       {menuOpen ? (
         <div className="w-full md:hidden h-screen bg-m-ash bg-opacity-90 fixed top-0 z-50 flex flex-col p-4">
           <img
@@ -45,7 +45,7 @@ function App() {
           </a>
         </div>
       ) : null}
-      <div className=" z-30 w-full  lg:py-6 lg:px-24 px-5 md:px-8 py-4 shadow-md flex flex-wrap fixed top-0 justify-between items-center bg-white ">
+      <div className=" z-30 w-full xl:px-44  lg:py-6 lg:px-36 px-5 md:px-8 py-4 shadow-md flex flex-wrap fixed top-0 justify-between items-center bg-white ">
         <img className="h-10 object-contain lg:h-12" src={logo} alt="logo" />
         <div className="hidden md:flex md:justify-evenly md:align-middle">
           <a
@@ -55,10 +55,8 @@ function App() {
             Sign in
           </a>
           <a
-            
             className="p-3 flex items-center justify-center lg:px-14 lg:py-1 tracking-wide rounded-lg border-m-orange border-2 bg-m-orange text-white   "
             href="https://app.moyalo.ng/register"
-            
           >
             Get Started
           </a>
@@ -73,13 +71,15 @@ function App() {
           />
         </div>
       </div>
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/faq" component />
-        </Switch>
-      </Router>
-<Footer />
+      <div className="2xl:flex  2xl:flex-col self-center">
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/faq" component />
+          </Switch>
+        </Router>
+        <Footer />
+      </div>
     </div>
   );
 }

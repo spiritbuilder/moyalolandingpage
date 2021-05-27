@@ -6,7 +6,6 @@ import sendmoney from "../assets/land-sendmoney.png";
 import laptop from "../assets/land-laptop.png";
 import dollar from "../assets/land-dollar.png";
 import check from "../assets/icons8-checkmark-26.png";
-import Footer from "./Footer";
 import flutterwave from "../assets/land-flutterwave.png";
 import mkobo from "../assets/land-mkobo.png";
 import monnify from "../assets/land-monify.png";
@@ -17,22 +16,22 @@ import cbn from "../assets/land-cbn.jpg";
 function Home(props) {
   let history = useHistory();
   return (
-    <div className="w-full flex flex-col mt-8   overflow-x-hidden">
+    <div className="w-full flex flex-col mt-8 2xl:relative  2xl:self-center 2xl:overflow-x-visible overflow-x-hidden">
       <div className="px-3 pt-3 lg:px-32 lg:justify-center overflow-y-hidden  overflow-x-hidden flex flex-col flex-wrap md:px-10">
-        <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly md:pt-32">
+        <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly  md:pt-32">
           <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap pt-20">
-            <p className="lg:pt-0  xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5 leading-snug  font-bold text-opacity-70 text-black text-5xl md:text-5xl xl:text-6xl  ">
+            <p className="lg:pt-0 lg:leading-extra-loose 2xl:text-9xl  xl:text-6xl md:leading-extra-loose xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5  font-bold text-opacity-90 text-black text-5xl md:text-6xl lg:text-5xl ">
               Redefining the
               <br />
               essence of money
             </p>
-            <p className="text-m-ash xl:tracking-widest lg:text-xl font-light xl:mb-2 mt-2 mb-5 md:text-3xl">
+            <p className="text-m-ash  xl:tracking-widest lg:text-xl font-light xl:mt-12 xl:mb-2 mt-2 mb-5 md:text-3xl">
               Moyalo helps you send money, save money, make seamless payments
               and access credit anywhere and everytime
             </p>
             <a
               href="https://app.moyalo.ng/register"
-              className="inline lg:w-auto  xl:mt-6  md:self-center mt-2 p-3 xl:mb-2 mb-8 md:text-3xl lg:text-xl lg:rounded-xl lg:tracking-wide text-xl text-center w-auto xl:py-6   lg:px-14 lg:py-4 tracking-normal rounded-lg md:w-8/12 md:p-6  bg-m-orange text-white"
+              className="inline lg:w-auto  xl:mt-10 xl:mb-12 xl:leading-snug  md:self-center mt-2 p-3 mb-8 md:text-3xl lg:text-xl lg:rounded-xl lg:tracking-wide text-xl text-center w-auto xl:py-6   lg:px-14 lg:py-4 tracking-normal rounded-lg md:w-8/12 md:p-6  bg-m-orange text-white"
             >
               Create a Free Account
             </a>
@@ -45,11 +44,10 @@ function Home(props) {
             />
             <div className="underlay md:absolute xl:absolute self-center lg:absolute lg:left-6 lg:-top-10 xl:top-4 lg:w-52 xl:w-4/6 xl:h-4/6 lg:h-52 relative animate-pulse -top-80 md:-top-0 md:w-96 md:h-96 w-48 h-48 rounded-full bg-opacity-30 bg-m-blue"></div>
           </div>
+          <div className=" rounded-full md:-left-96 md:-top-96 lg:-left-96 lg:-top-96 xl:-left-56 absolute -left-56 xl:-top-64 underlay -top-64 bigw bigh  bg-gradient-to-r from-yellow-50  to-m-tiny-blue"></div>
         </div>
 
-        <div className=" rounded-full md:-left-96 md:-top-96 lg:-left-96 lg:-top-96 xl:-left-56 absolute -left-56 xl:-top-64 underlay -top-64 bigw bigh  bg-gradient-to-r from-yellow-50  to-m-tiny-blue"></div>
-
-        <div className="lg:mt-28 lg:text-lg text-center xl:text-2xl  -mt-52 md:relative md:-top-24  text-m-ash md:mt-0 md:text-md">
+        <div className="lg:mt-28 md:text-sm lg:text-lg text-center xl:text-2xl  -mt-52 md:relative md:-top-24  text-m-ash md:mt-0 md:text-md">
           Moyalo is a product of MKOBO MFB licenced by the CBN, all deposits are
           insured by the NDIC
         </div>
@@ -57,7 +55,7 @@ function Home(props) {
       <div className="relative   overflow-y-hidden flex flex-col flex-wrap px-3 pt-3 md:px-32">
         <div className="smw xl:left-1/4 xl:-top-3/4 smh md:left-40 lg:-top-96 lg:left-60 left-10 md:-top-80 -top-32 underlay absolute rounded-full bg-opacity-20 bg-m-blue"></div>
         <div className="smw smh md:left-16 xl:-top-1/3 md:-top-56 lg:left-24 left-3 -top-42 underlay2 absolute rounded-full bg-opacity-20 bg-gradient-to-r from-yellow-50  to-m-tiny-blue"></div>
-        <p className="text-m-black md:text-3xl xl:text-4xl xl:tracking-widest pt-6 font-semibold tracking-wide text-center text-xl">
+        <p className="text-m-black mt-12 md:text-3xl xl:text-4.5xl xl:tracking-normal  pt-6 xl:font-extrabold font-bold tracking-wide text-center text-xl">
           The Perfect Wallet For Individuals and Businesses
         </p>
         <p className="text-center xl:text-3xl my-6 font-medium md:text-lg text-m-ash">
@@ -75,23 +73,27 @@ function Home(props) {
             <p className="md:text-xl xl:pl-4 xl:text-3xl  lg:mt-3 lg:text-left uppercase text-m-ash font-light text-center">
               Transfer and Bills Payment
             </p>
-            <p className="py-6 xl:text-7xl text-m-black lg:text-3xl font-bold lg:text-left lg:self-start md:text-3xl text-center text-2xl justify-center self-center">
-              Send Money <br /> Receive Money <br />
-              &amp; Bills payment
-            </p>
-            <div className=" flex flex-row flex-wrap">
-              <span className="bg-m-orange xl:px-8 xl:py-2 xl:text-2xl xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex items-center  rounded-xl py-0.5 px-3 m-1 ">
-                Airtime
-              </span>
-              <span className=" bg-blue-400 xl:px-8 xl:py-2 xl:text-2xl xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex-nowrap flex items-center rounded-xl px-3 m-1 py-0.5">
-                Electricity Bill
-              </span>
-              <span className="  bg-purple-400 xl:px-8 xl:py-2 xl:text-2xl xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex  items-center rounded-xl px-3 m-1 py-0.5">
-                Data
-              </span>
-              <span className="  bg-m-red flex xl:px-8 xl:py-2 xl:text-2xl xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white items-center rounded-xl px-3 m-1 py-0.5">
-                Cable TV subscription
-              </span>
+            <div className=" flex flex-row flex-wrap lg:mb-10">
+              <div>
+                <p className="py-6 xl:leading-extra-loose xl:text-7xl 2xl:text-9xl text-m-black lg:text-3xl font-bold lg:text-left lg:self-start md:text-3xl text-center text-2xl justify-center self-center">
+                  Send Money <br /> Receive Money <br />
+                  &amp; Bills payment
+                </p>
+              </div>
+              <div className=" flex flex-row flex-wrap lg:mb-10">
+                <span className="bg-m-orange xl:px-8 xl:py-2 lg:text-base xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex items-center  rounded-xl py-0.5 px-3 m-1 ">
+                  Airtime
+                </span>
+                <span className=" bg-blue-400 xl:px-8 xl:py-2 lg:text-base xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex-nowrap flex items-center rounded-xl px-3 m-1 py-0.5">
+                  Electricity Bill
+                </span>
+                <span className="  bg-purple-400 xl:px-8 xl:py-2 lg:text-base xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white flex  items-center rounded-xl px-3 m-1 py-0.5">
+                  Data
+                </span>
+                <span className="  bg-m-red flex xl:px-8 xl:py-2 lg:text-base xl:font-light xl:m-3 md:text-lg lg:tracking-wider text-white items-center rounded-xl px-3 m-1 py-0.5">
+                  Cable TV subscription
+                </span>
+              </div>
             </div>
           </div>
           <div className="relative flex items-end lg:w-7/12  xl:w-6/12">
@@ -108,10 +110,10 @@ function Home(props) {
           </div>
         </div>
       </div>
-      <div className="px-5 py-24 md:px-20 -mt-14 md:-mt-24 xl:-mt-24 bg-m-tiny-blue clipped flex lg:justify-center xl:justify-around lg:items-center flex-row flex-wrap-reverse">
+      <div className="px-5 py-24 md:px-20 -mt-14  md:-mt-20  bg-m-tiny-blue clipped flex lg:justify-center xl:justify-around lg:items-center flex-row flex-wrap-reverse">
         <img className="lg:w-7/12  object-contain" src={laptop} alt="laptop" />
         <div className="lg:w-5/12   flex flex-col">
-          <p className="text-2xl lg:text-5xl lg:bold md:text-3xl xl:text-7xl font-semibold lg:text-right ">
+          <p className="text-2xl 2xl:text-9xl lg:text-5xl lg:bold md:text-3xl xl:text-7.5xl font-semibold lg:text-right ">
             A Modern
             <br /> Path to <span className="text-m-blue">Save</span>
           </p>
@@ -129,7 +131,7 @@ function Home(props) {
       </div>
       <div className="px-3 md:px-24 flex flex-wrap pt-10 md:pt-40 justify-evenly items-end">
         <div className=" lg:w-5/12">
-          <p className="align-left md:text-3xl xl:text-5xl text-2xl mb-4 text-m-black font-bold tracking-wider">
+          <p className="align-left md:text-3xl 2xl:text-8xl xl:text-5xl text-2xl mb-4 text-m-black font-bold tracking-wider">
             Create Instant <br />
             Virtual Dollar Card <br />
             for International <br />

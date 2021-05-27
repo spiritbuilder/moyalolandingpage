@@ -6,6 +6,10 @@
   * {
     font-family: "Poppins", sans-serif;
   }
+:root{
+  
+}
+
   .underlay {
     z-index: -1;
   }
