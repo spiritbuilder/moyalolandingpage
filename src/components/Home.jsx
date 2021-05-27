@@ -20,7 +20,7 @@ function Home(props) {
       <div className="px-3 pt-3 lg:px-32 lg:justify-center overflow-y-hidden  overflow-x-hidden flex flex-col flex-wrap md:px-10">
         <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly  md:pt-32">
           <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap pt-20">
-            <p className="lg:pt-0 lg:leading-extra-loose 2xl:text-9xl  xl:text-6xl md:leading-extra-loose xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5  font-bold text-opacity-90 text-black text-5xl md:text-6xl lg:text-5xl ">
+            <p className="lg:pt-0 lg:leading-extra-loose 2xl:text-9xl  xl:text-6.5xl md:leading-extra-loose xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5  font-bold text-opacity-90 text-black text-5xl md:text-6xl lg:text-5xl ">
               Redefining the
               <br />
               essence of money
@@ -97,13 +97,13 @@ function Home(props) {
             </div>
           </div>
           <div className="relative flex items-end lg:w-7/12  xl:w-6/12">
-            <span className="absolute z-10  lg:right-10 right-0 md:top-28 top-16 bg-opacity-50 md:right-20 md:text-base md:py-1.5  text-sm bg-m-ash text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
+            <span className="absolute z-10 xl:right-20 slideinfromright lg:right-10 right-0 md:top-28 xl:top-56 top-16 bg-opacity-50 md:right-20 md:text-base md:py-1.5  text-sm bg-m-ash text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
               No hidden Charges
             </span>
-            <span className="bg-opacity-50 z-10 right-0 md:right-20 lg:right-10 absolute md:text-base md:py-1.5 top-36 md:top-52 bg-m-ash text-sm text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
+            <span className="bg-opacity-50 z-10 xl:right-20 slideinfromright right-0 md:right-20 lg:right-10 absolute md:text-base md:py-1.5 top-36 xl:top-80 md:top-52 bg-m-ash text-sm text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
               Zero Transfer Fees
             </span>
-            <span className="bg-opacity-50 z-10 text-center left-0 md:left-16 lg:left-10 md:text-base md:py-1.5  absolute top-24 md:top-52 bg-m-ash text-sm text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
+            <span className="bg-opacity-50 z-10 xl:left-20 slideinfromleft  text-center left-0 md:left-16 lg:left-10 md:text-base md:py-1.5 xl:top-80  absolute top-24 md:top-52 bg-m-ash text-sm text-white inline-flex items-center rounded-xl px-3 m-1 py-0.5">
               Instant and Secure <br /> Transfer
             </span>
             <img className="object-cover" src={sendmoney} alt="sendmoney" />

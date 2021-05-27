@@ -6,10 +6,38 @@
   * {
     font-family: "Poppins", sans-serif;
   }
-:root{
-  
-}
-
+  :root {
+    --slideright: 10px;
+    --slideleft: -10px;
+  }
+  @media (min-width: 320px) {
+    :root {
+      --slideright: 30px;
+      --slideleft: -30px;
+    }
+  }
+  @keyframes slideinfromright {
+    50% {
+      transform: translate(var(--slideright));
+    }
+    100% {
+      transform: translate(0px);
+    }
+  }
+  @keyframes slideinfromleft {
+    50% {
+      transform: translate(var(--slideleft));
+    }
+    100% {
+      transform: translate(0px);
+    }
+  }
+  .slideinfromleft {
+    animation: slideinfromleft 2s ease-in 3;
+  }
+  .slideinfromright {
+    animation: slideinfromright 2s ease-in 3;
+  }
   .underlay {
     z-index: -1;
   }
