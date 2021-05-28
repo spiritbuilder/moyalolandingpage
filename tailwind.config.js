@@ -21,8 +21,11 @@ module.exports = {
         1536: "1536px",
       },
       lineHeight: {
-        'extra-loose': '1.25',
+        "mine":"1.15",
+        "extra-loose": '1.25',
         '12': '1.4',
+        "16":"1.9",
+        '13': '1.7',
        },
        fontSize: {
         "7.5xl": ['5rem', '1.2'],

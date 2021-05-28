@@ -20,7 +20,7 @@ function Home(props) {
       <div className="px-3 pt-3 lg:px-32 lg:justify-center overflow-y-hidden  overflow-x-hidden flex flex-col flex-wrap md:px-10">
         <div className=" flex flex-wrap xl:pt-36 lg:pt-36 items-end justify-evenly  md:pt-32">
           <div className=" lg:w-6/12 flex justify-start flex-col lg:flex-row flex-wrap pt-20">
-            <p className="lg:pt-0 lg:leading-extra-loose 2xl:text-6.5xl text-opacity-70 xl:text-4.7xl  md:leading-extra-loose xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5  font-bold  text-m-black text-5xl md:text-6xl lg:text-4.5xl ">
+            <p className="lg:pt-0 lg:leading-extra-loose 2xl:text-6.5xl text-opacity-70 xl:text-4.7xl  md:leading-extra-loose xl:tracking-wider xl:font-bold  lg:pr-0 xl:py-4 lg:pb-0  pr-8 pb-5  font-bold  text-m-black text-2xl md:text-6xl lg:text-4.5xl ">
               Redefining the
               <br />
               essence of money
@@ -131,7 +131,7 @@ function Home(props) {
       </div>
       <div className="px-3 md:px-24 flex flex-wrap pt-10 md:pt-40 justify-evenly items-end">
         <div className=" lg:w-5/12">
-          <p className="align-left md:text-3xl  xl:text-5xl text-2xl mb-4 text-m-black font-bold tracking-wider">
+          <p className="align-left md:text-3xl leading-extra-loose xl:text-5xl text-2xl mb-4 text-m-black font-bold tracking-wider">
             Create Instant <br />
             Virtual Dollar Card <br />
             for International <br />

@@ -8,7 +8,7 @@ import instagram from "../assets/instagram.svg";
 function Footer() {
   return (
     <>
-      <div className="w-full text-sm sm:py-12 md:px-12 p-4 bg-m-black px-2 lg:px-32">
+      <div className="w-full text-sm leading-13 lg:leading-16 sm:py-12 md:px-12 p-4 bg-m-black px-2 lg:px-32">
         <img className="h-6 lg:ml-12" src={logo} alt="logo" />
         <div className="flex flex-wrap justify-evenly md:justify-between">
           <div className="text-white  sm:-ml-0 w-32 md:w-40">
