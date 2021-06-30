@@ -93,7 +93,7 @@ function App() {
       }}
     >
       <h1>
-        Site is currenly being upgraded <br /> Please Check again soon
+        Site is currently being upgraded <br /> Please Check again soon
       </h1>
     </div>
   );
