@@ -47,10 +47,10 @@ function Home(props) {
           <div className=" rounded-full md:-left-96 md:-top-96 lg:-left-96 lg:-top-96 xl:-left-56 absolute -left-56 xl:-top-64 underlay -top-64 bigw bigh  bg-gradient-to-r from-yellow-50  to-m-tiny-blue"></div>
         </div>
 
-        <div className="lg:mt-28 md:text-sm lg:text-lg text-center xl:text-2xl  -mt-52 md:relative md:-top-24  text-m-ash md:mt-0 md:text-md">
+        {/* <div className="lg:mt-28 md:text-sm lg:text-lg text-center xl:text-2xl  -mt-52 md:relative md:-top-24  text-m-ash md:mt-0 md:text-md">
           Moyalo is a product of MKOBO MFB licenced by the CBN, all deposits are
           insured by the NDIC
-        </div>
+        </div> */}
       </div>
       <div className="relative   overflow-y-hidden flex flex-col flex-wrap px-3 pt-3 md:px-32">
         <div className="smw xl:left-1/4 xl:-top-3/4 smh md:left-40 lg:-top-96 lg:left-60 left-10 md:-top-80 -top-32 underlay absolute rounded-full bg-opacity-20 bg-m-blue"></div>
@@ -172,7 +172,7 @@ function Home(props) {
               We use bank-level encryption for all your personal information
             </div>
           </div>
-          <div className="px-2 w-5/12 md:w-64 py-2">
+          {/* <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex  justify-start">
               <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
                 <img className="h-3 md:h-5" src={check} alt="mark" />
@@ -185,7 +185,7 @@ function Home(props) {
               Authorized and regulated by the Central Bank of Nigeria(CBN). All
               deposits are insured by the NDIC
             </div>
-          </div>
+          </div> */}
           <div className="px-2 w-5/12 md:w-64 py-2">
             <div className="flex justify-start ">
               <div className="bg-m-orange px-1 md:px-2 flex justify-center items-center py-1 rounded-xl">
@@ -215,7 +215,7 @@ function Home(props) {
         </div>
       </div>
       <div className="p-10 items-start justify-evenly flex flex-row flex-wrap">
-        <div className="justify-center flex flex-col items-center">
+        {/* <div className="justify-center flex flex-col items-center">
           <p className="text-3xl tracking-wide">In Partnership with:</p>
           <div className="flex-col flex items-center justify-center">
             <img className="h-36" src={mkobo} alt="mkobo" />
@@ -224,7 +224,7 @@ function Home(props) {
               <img className="h-20 object-contain" src={ndic} alt="ndic" />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="flex  flex-col justify-start p-1 items-center">
           <p className="text-3xl tracking-wide">Our Partners</p>
           <div className="bg-m-orange m-2 w-20 h-2"></div>
